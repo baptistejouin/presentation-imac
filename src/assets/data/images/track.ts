@@ -21,6 +21,13 @@ import patinoire from '../../img/patinoire.webp'
 import roseplaisir from '../../img/roseplaisir.webp'
 import got from '../../img/got.webp'
 import orelsan from '../../img/orelsan.webp'
+import spotifybetterthandeezer from '../../img/spotifybetterthandeezer.webp'
+import trip from '../../img/trip.webp'
+import acdc from '../../img/acdc.webp'
+import sopico from '../../img/sopico.webp'
+import chat from '../../img/chat.webp'
+import feux from '../../img/feux.webp'
+import pastis from '../../img/pastis.gif'
 
 const imgs = [
     {
@@ -40,6 +47,10 @@ const imgs = [
         src: breakingbad,
     },
     {
+        title: 'pastis',
+        src: pastis,
+    },
+    {
         title: 'chateauambulant',
         src: chateauambulant,
     },
@@ -48,12 +59,24 @@ const imgs = [
         src: cocobongo,
     },
     {
+        title: 'sopico',
+        src: sopico,
+    },
+    {
         title: 'cross',
         src: cross,
     },
     {
+        title: 'chat',
+        src: chat,
+    },
+    {
         title: 'daft-punk',
         src: daftPunk,
+    },
+    {
+        title: 'trip',
+        src: trip,
     },
     {
         title: 'fisher',
@@ -66,6 +89,10 @@ const imgs = [
     {
         title: 'laylow',
         src: laylow,
+    },
+    {
+        title: 'feux',
+        src: feux,
     },
     {
         title: 'michelfrance',
@@ -84,6 +111,10 @@ const imgs = [
         src: nirvana,
     },
     {
+        title: 'spotifybetterthandeezer',
+        src: spotifybetterthandeezer,
+    },
+    {
         title: 'got',
         src: got,
     },
@@ -100,6 +131,10 @@ const imgs = [
         src: paletsvendeen,
     },
     {
+        title: 'roseplaisir',
+        src: roseplaisir,
+    },
+    {
         title: 'theoffice',
         src: theoffice,
     },
@@ -108,12 +143,12 @@ const imgs = [
         src: pates,
     },
     {
-        title: 'patinoire',
-        src: patinoire,
+        title: 'acdc',
+        src: acdc,
     },
     {
-        title: 'roseplaisir',
-        src: roseplaisir,
+        title: 'patinoire',
+        src: patinoire,
     },
 ] as const
 
