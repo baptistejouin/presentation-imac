@@ -1,0 +1,42 @@
+.countdownContainer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.countdown {
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.egg {
+    display: grid;
+    font-size: 1.15rem;
+    place-items: end center;
+    height: 300px;
+    padding-bottom: 1rem;
+}
+
+.links {
+    margin-top: 5rem;
+    text-align: center;
+
+    h2 {
+        font-weight: 500;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        margin-top: 1rem;
+    }
+
+    li {
+        list-style: none;
+    }
+}

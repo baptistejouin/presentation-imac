@@ -1,0 +1,51 @@
+@use '../../assets/scss/functions' as f;
+
+.track {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    @media screen and (max-width: 800px) {
+        height: auto;
+        width: 100%;
+    }
+
+    figcaption {
+        position: absolute;
+    }
+
+    img {
+        position: absolute;
+        object-fit: cover;
+
+        @media screen and (max-width: 800px) {
+            position: static;
+            height: auto !important;
+            width: 100% !important;
+            transform: rotate(0) !important;
+        }
+
+        @for $i from 0 through 24 {
+            &[data-img='#{$i}'] {
+                transform: rotate(#{f.randomNum(-5, 5) + 'deg'});
+                z-index: f.randomNum(1, 2);
+
+                $rng: f.randomNum(1, 2);
+
+                @if (($i) % 3==0) {
+                    // portrait
+                    aspect-ratio: 2 / 3;
+                    width: #{f.randomNum(65, 70) + '%'}; //65
+                    top: #{f.randomNum(10, 20) + '%'}; //20
+                    left: 15%;
+                } @else {
+                    // landscape
+                    aspect-ratio: 3 / 2;
+                    width: #{f.randomNum(90, 95) + '%'}; //95
+                    top: #{f.randomNum(20, 30) + '%'}; //30
+                    left: 5%;
+                }
+            }
+        }
+    }
+}
