@@ -38,7 +38,7 @@ export default function Presentation() {
                 scrollTrigger: {
                     trigger: section.current,
                     start: 'top top',
-                    end: 'bottom end',
+                    end: () => innerWidth * 5,
                     scrub: 1,
                     pin: true,
                     invalidateOnRefresh: true,
