@@ -1,5 +1,5 @@
 .section {
-    width: 500vw;
+    width: 700vw;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -27,5 +27,6 @@
         flex-direction: column;
         justify-content: flex-start;
         gap: 6rem;
+        margin-bottom: 3rem;
     }
 }

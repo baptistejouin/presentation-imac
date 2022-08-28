@@ -1,6 +1,7 @@
 import React from 'react'
 import { useCountdown } from '../../hooks/useCountdown'
 import Container from '../Container/Container'
+import ilyainteret from '../../assets/img/ilyainteret.gif'
 
 import styles from './Footer.module.scss'
 
@@ -21,8 +22,10 @@ export default function Footer() {
                             <span>{countdown.minutes}M</span>
                             <span>{countdown.seconds}S</span>
                         </div>
+                        <img className={styles.webp} src={ilyainteret} alt="" />
                     </div>
                 )}
+                <hr />
                 <div className={styles.links}>
                     <h2>Quelques liens pour les curieux :</h2>
                     <ul>
@@ -59,7 +62,7 @@ export default function Footer() {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                Si il y a des RH par ici
+                                S&apos;il y a des responsable RH par ici
                             </a>
                         </li>
                     </ul>

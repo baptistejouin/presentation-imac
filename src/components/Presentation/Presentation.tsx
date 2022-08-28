@@ -16,7 +16,10 @@ export default function Presentation() {
 
     const handleProgress = (value: string) => {
         if (progress.current) {
-            if (Number(value) > 90) {
+            const valueNumber = Number(value)
+            if (valueNumber <= 10) {
+                progress.current.textContent = `${value}% 🥲`
+            } else if (valueNumber >= 90) {
                 progress.current.textContent = `${value}% 😵‍💫`
             } else {
                 progress.current.textContent = `${value}%`
@@ -61,14 +64,12 @@ export default function Presentation() {
                 <div className={styles.tracks}>
                     {imgs.map((el, i) => (
                         <Track key={el.title}>
-                            <figure>
-                                <img
-                                    loading="lazy"
-                                    data-img={i}
-                                    src={el.src}
-                                    alt={el.title}
-                                />
-                            </figure>
+                            <img
+                                loading="lazy"
+                                data-img={i}
+                                src={el.src}
+                                alt={el.title}
+                            />
                         </Track>
                     ))}
                 </div>
