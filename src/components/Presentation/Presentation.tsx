@@ -62,13 +62,13 @@ export default function Presentation() {
             <Fixed refFixed={fixed} refProgress={progress} />
             <div ref={section} className={styles.section}>
                 <div className={styles.tracks}>
-                    {imgs.map((el, i) => (
-                        <Track key={el.title}>
+                    {imgs.map((img, i) => (
+                        <Track key={img.title}>
                             <img
                                 loading="lazy"
                                 data-img={i}
-                                src={el.src}
-                                alt={el.title}
+                                src={img.src}
+                                alt={img.title}
                             />
                         </Track>
                     ))}
