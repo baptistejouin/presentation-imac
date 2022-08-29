@@ -27,11 +27,11 @@
 
         @for $i from 0 through 29 {
             &[data-img='#{$i}'] {
-                transform: rotate(#{f.randomNum(-7, 7) + 'deg'});
+                transform: rotate(#{f.random-num(-7, 7) + 'deg'}) translate(-50%, -50%);
                 aspect-ratio: 3 / 2;
                 width: 110%;
-                top: #{f.randomNum(20, 30) + '%'}; //30
-                left: 5%;
+                top: 45%;
+                left: 50%;
             }
         }
     }
