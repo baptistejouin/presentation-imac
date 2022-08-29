@@ -1,3 +1,11 @@
+.footer {
+    margin-top: -10vh;
+
+    @media screen and (max-width: 800px) {
+        margin-top: 0;
+    }
+}
+
 .countdown-container {
     display: flex;
     text-align: center;
@@ -47,7 +55,9 @@
 }
 
 hr {
-    margin: 5rem 0;
+    margin: 3rem 0;
+    max-width: 25%;
     border: 0;
     border-top: 1px solid #dfdfdf;
+    margin-inline: auto
 }

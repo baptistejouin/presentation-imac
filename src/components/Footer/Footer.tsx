@@ -38,11 +38,11 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://open.spotify.com/user/_forex_?si=09e244a288bb4b54"
+                href="https://open.spotify.com/user/_forex_"
                 target="_blank"
                 rel="noreferrer"
               >
-                Mon univers musical
+                J&apos;écoute de tout, tout le temps...
               </a>
             </li>
             <li>
