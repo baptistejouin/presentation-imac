@@ -60,7 +60,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                S&apos;il y a des responsable RH par ici
+                S&apos;il y a des responsables RH par ici
               </a>
             </li>
           </ul>
