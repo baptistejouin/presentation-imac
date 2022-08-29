@@ -1,4 +1,4 @@
-import anne from '../../img/anne.webp'
+import anneestmeilleurquemarc from '../../img/anne.webp'
 import bbq from '../../img/bbq.webp'
 import breakingbad from '../../img/breaking-bad.webp'
 import daftPunk from '../../img/daft-punk.webp'
@@ -25,14 +25,15 @@ import spotifybetterthandeezer from '../../img/spotifybetterthandeezer.webp'
 import trip from '../../img/trip.webp'
 import acdc from '../../img/acdc.webp'
 import sopico from '../../img/sopico.webp'
-import chat from '../../img/chat.webp'
+import qalf from '../../img/qalf.webp'
 import feux from '../../img/feux.webp'
 import pastis from '../../img/pastis.gif'
+import djmitch from '../../img/djmitch.webp'
 
 const imgs = [
   {
-    title: 'anne',
-    src: anne,
+    title: 'anneestmeilleurquemarc',
+    src: anneestmeilleurquemarc,
   },
   {
     title: 'bbq',
@@ -67,8 +68,8 @@ const imgs = [
     src: cross,
   },
   {
-    title: 'chat',
-    src: chat,
+    title: 'qalf',
+    src: qalf,
   },
   {
     title: 'daft-punk',
@@ -149,6 +150,10 @@ const imgs = [
   {
     title: 'patinoire',
     src: patinoire,
+  },
+  {
+    title: 'djmitch',
+    src: djmitch,
   },
 ] as const
 

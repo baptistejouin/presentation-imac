@@ -25,9 +25,9 @@
             transform: rotate(0) !important;
         }
 
-        @for $i from 0 through 29 {
+        @for $i from 0 through 30 {
             &[data-img='#{$i}'] {
-                transform: rotate(#{f.random-num(-7, 7) + 'deg'}) translate(-50%, -50%);
+                transform: rotate(#{f.random-num(-6, 6) + 'deg'}) translate(-50%, -50%);
                 aspect-ratio: 3 / 2;
                 width: 110%;
                 top: 45%;
