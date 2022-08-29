@@ -1,4 +1,4 @@
-.countdownContainer {
+.countdown-container {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -39,7 +39,8 @@
         list-style: none;
     }
 }
-.webp {
+
+.gif {
     margin-top: 2rem;
     max-width: 400px;
     margin-inline: auto;

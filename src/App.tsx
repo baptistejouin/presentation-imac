@@ -11,11 +11,11 @@ import Header from './components/Header/Header'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function App() {
-    return (
-        <>
-            <Header />
-            <Presentation />
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Header />
+      <Presentation />
+      <Footer />
+    </>
+  )
 }

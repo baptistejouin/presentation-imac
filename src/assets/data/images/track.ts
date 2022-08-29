@@ -30,126 +30,126 @@ import feux from '../../img/feux.webp'
 import pastis from '../../img/pastis.gif'
 
 const imgs = [
-    {
-        title: 'anne',
-        src: anne,
-    },
-    {
-        title: 'bbq',
-        src: bbq,
-    },
-    {
-        title: 'brazil',
-        src: brazil,
-    },
-    {
-        title: 'breakingbad',
-        src: breakingbad,
-    },
-    {
-        title: 'pastis',
-        src: pastis,
-    },
-    {
-        title: 'chateauambulant',
-        src: chateauambulant,
-    },
-    {
-        title: 'cocobongo',
-        src: cocobongo,
-    },
-    {
-        title: 'sopico',
-        src: sopico,
-    },
-    {
-        title: 'cross',
-        src: cross,
-    },
-    {
-        title: 'chat',
-        src: chat,
-    },
-    {
-        title: 'daft-punk',
-        src: daftPunk,
-    },
-    {
-        title: 'trip',
-        src: trip,
-    },
-    {
-        title: 'fisher',
-        src: fisher,
-    },
-    {
-        title: 'hunter',
-        src: hunter,
-    },
-    {
-        title: 'laylow',
-        src: laylow,
-    },
-    {
-        title: 'feux',
-        src: feux,
-    },
-    {
-        title: 'michelfrance',
-        src: michelfrance,
-    },
-    {
-        title: 'martinique',
-        src: martinique,
-    },
-    {
-        title: 'nantes',
-        src: nantes,
-    },
-    {
-        title: 'nirvana',
-        src: nirvana,
-    },
-    {
-        title: 'spotifybetterthandeezer',
-        src: spotifybetterthandeezer,
-    },
-    {
-        title: 'got',
-        src: got,
-    },
-    {
-        title: 'notion',
-        src: notion,
-    },
-    {
-        title: 'orelsan',
-        src: orelsan,
-    },
-    {
-        title: 'paletsvendeen',
-        src: paletsvendeen,
-    },
-    {
-        title: 'roseplaisir',
-        src: roseplaisir,
-    },
-    {
-        title: 'theoffice',
-        src: theoffice,
-    },
-    {
-        title: 'pates',
-        src: pates,
-    },
-    {
-        title: 'acdc',
-        src: acdc,
-    },
-    {
-        title: 'patinoire',
-        src: patinoire,
-    },
+  {
+    title: 'anne',
+    src: anne,
+  },
+  {
+    title: 'bbq',
+    src: bbq,
+  },
+  {
+    title: 'brazil',
+    src: brazil,
+  },
+  {
+    title: 'breakingbad',
+    src: breakingbad,
+  },
+  {
+    title: 'pastis',
+    src: pastis,
+  },
+  {
+    title: 'chateauambulant',
+    src: chateauambulant,
+  },
+  {
+    title: 'cocobongo',
+    src: cocobongo,
+  },
+  {
+    title: 'sopico',
+    src: sopico,
+  },
+  {
+    title: 'cross',
+    src: cross,
+  },
+  {
+    title: 'chat',
+    src: chat,
+  },
+  {
+    title: 'daft-punk',
+    src: daftPunk,
+  },
+  {
+    title: 'trip',
+    src: trip,
+  },
+  {
+    title: 'fisher',
+    src: fisher,
+  },
+  {
+    title: 'hunter',
+    src: hunter,
+  },
+  {
+    title: 'laylow',
+    src: laylow,
+  },
+  {
+    title: 'feux',
+    src: feux,
+  },
+  {
+    title: 'michelfrance',
+    src: michelfrance,
+  },
+  {
+    title: 'martinique',
+    src: martinique,
+  },
+  {
+    title: 'nantes',
+    src: nantes,
+  },
+  {
+    title: 'nirvana',
+    src: nirvana,
+  },
+  {
+    title: 'spotifybetterthandeezer',
+    src: spotifybetterthandeezer,
+  },
+  {
+    title: 'got',
+    src: got,
+  },
+  {
+    title: 'notion',
+    src: notion,
+  },
+  {
+    title: 'orelsan',
+    src: orelsan,
+  },
+  {
+    title: 'paletsvendeen',
+    src: paletsvendeen,
+  },
+  {
+    title: 'roseplaisir',
+    src: roseplaisir,
+  },
+  {
+    title: 'theoffice',
+    src: theoffice,
+  },
+  {
+    title: 'pates',
+    src: pates,
+  },
+  {
+    title: 'acdc',
+    src: acdc,
+  },
+  {
+    title: 'patinoire',
+    src: patinoire,
+  },
 ] as const
 
 export default imgs
